@@ -1,1 +1,186 @@
 /* Add screen styles below */
+html {
+    background: #e3e3e3;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    color: #242424;
+    background: #fff;
+}
+
+h1 {
+    font-size: 2.2em;
+    margin: 0;
+    text-align: center;
+}
+
+.masttext {
+    font-size: 1.2em;
+    margin: 20px;
+    text-align: center;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(10px);
+    background-color: #edededba;
+    box-shadow: 0 1px 1px #1010101a;
+    padding: 20px;
+    margin: -30px -30px 0px -30px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin-left: 10px;
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+}
+
+img[src="Assets/Subject.png"] {
+    width: 50px;
+}
+  
+a:visited {
+    color: rgb(0, 0, 0);
+}
+  
+a:hover {
+    color: black;
+}
+  
+a:active {
+    color: black;
+    font-weight: bold;
+  }
+a:link, a:visited {
+    text-decoration: none;
+}
+
+.masthead {
+    background: no-repeat center / cover url('Assets/Asteroid mining For All Mankind.jpg');
+    height: 500px;
+    border-radius: 20px;
+}
+
+.History {
+    display: flex;
+    gap: 25px;
+}
+
+.History section.histimg {
+    background: no-repeat center / cover url('Assets/station.webp');
+    width: 200px;
+    flex-grow: 1;
+    flex-basis: 0;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+.History section.histtxt p {
+    margin: 25px;
+}
+
+.History section.histtxt h2 {
+    margin: 25px;
+}
+
+.History section.histtxt {
+    flex-grow: 1;
+    flex-basis: 0;
+    background: #E9EAEC;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.mission {
+    display: flex;
+    gap: 25px;
+    flex-direction: row-reverse;
+}
+
+.mission section.mission-img {
+    background: no-repeat center / cover url('Assets/Asteroid mining in For All Mankind season 4.jpg');
+    width: 200px;
+    flex-grow: 1;
+    flex-basis: 0;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+.mission section.mission-txt p {
+    margin: 25px;
+}
+
+.mission section.mission-txt h2 {
+    margin: 25px;
+}
+
+.mission section.mission-txt {
+    flex-grow: 1;
+    flex-basis: 0;
+    background: #E9EAEC;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.founders {
+    display: flex;
+    gap: 25px;
+}
+
+.founders section {
+    flex-grow: 1;
+    flex-basis: 0;
+    background: #E9EAEC;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+.founders section p {
+    margin: 25px;
+}
+
+.founders section h2 {
+    margin: 25px;
+}
+
+.founders section.founder {
+    padding: 0;
+}
+
+div.found-img {
+    padding: 25px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 200px;
+    background: no-repeat center / cover url('Assets/Astronaut Suit Art.webp');
+}
+
+.Footer {
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(10px);
+    background-color: #edededba;
+    box-shadow: 0 -1px 1px #1010101a;
+    padding: 20px;
+    margin: 0 -30px -30px -30px;
+    margin-top: 20px;
+
+}
