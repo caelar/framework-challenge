@@ -1,12 +1,17 @@
 /* Add screen styles below */
-html {
-    background: #e3e3e3;
-}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 30px;
     color: #242424;
+    margin: 0;
     background: #fff;
+}
+
+main {
+    max-width: 1250px;
+    min-width: 1005px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -63,6 +68,7 @@ a:visited {
   
 a:hover {
     color: black;
+    font-weight: bold;
 }
   
 a:active {
